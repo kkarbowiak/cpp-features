@@ -2,7 +2,11 @@
 #include <chrono>
 
 
+#define print(feature) \
+do { std::cout << #feature " : " << feature << '\n'; } while (false)
+
+
 int main()
 {
-    std::cout << "__cpp_lib_chrono : " << __cpp_lib_chrono << '\n';
+    print(__cpp_lib_chrono);
 }
