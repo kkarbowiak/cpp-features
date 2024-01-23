@@ -7,5 +7,5 @@ add_executable(cpp-features features.cpp)
 target_compile_features(cpp-features PRIVATE cxx_std_20)
 
 add_custom_target(print-features ALL
-    COMMAND ./cpp-features
+    COMMAND ${CMAKE_BINARY_DIR}/cpp-features
     DEPENDS cpp-features)
