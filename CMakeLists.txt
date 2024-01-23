@@ -9,3 +9,9 @@ target_compile_features(cpp-features PRIVATE cxx_std_20)
 add_custom_target(print-features ALL
     COMMAND ${CMAKE_BINARY_DIR}/cpp-features
     DEPENDS cpp-features)
+
+get_cmake_property(_variableNames VARIABLES)
+list (SORT _variableNames)
+foreach (_variableName ${_variableNames})
+    message(STATUS "${_variableName}=${${_variableName}}")
+endforeach()
