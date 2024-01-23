@@ -6,12 +6,9 @@ add_executable(cpp-features features.cpp)
 
 target_compile_features(cpp-features PRIVATE cxx_std_20)
 
-add_custom_target(print-features ALL
-    COMMAND ${CMAKE_BINARY_DIR}/cpp-features
-    DEPENDS cpp-features)
+set_target_properties(cpp-features PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_CURRENT_BINARY_DIR})
 
-get_cmake_property(_variableNames VARIABLES)
-list (SORT _variableNames)
-foreach (_variableName ${_variableNames})
-    message(STATUS "${_variableName}=${${_variableName}}")
-endforeach()
+add_custom_target(print-features ALL
+    COMMAND ./cpp-features
+    DEPENDS cpp-features)
