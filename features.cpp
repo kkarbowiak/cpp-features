@@ -4,6 +4,11 @@
 
 int main()
 {
+    /*
+    All the macros listed below are based on the tables at
+    https://en.cppreference.com/w/cpp/feature_test
+    */
+
     std::cout << "Language features:\n";
 
     #if defined(__cpp_aggregate_bases)
