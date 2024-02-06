@@ -27,6 +27,12 @@ jobs:
               cxx: "g++",
             }
           - {
+              name: "Ubuntu latest - GCC 12",
+              os: ubuntu-latest,
+              cc: "gcc-12",
+              cxx: "g++-12",
+            }
+          - {
               name: "Ubuntu latest - Clang",
               os: ubuntu-latest,
               cc: "clang",
