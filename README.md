@@ -2,76 +2,76 @@
 
 ## Language features
 
-| Feature                               | GCC 11.4.0 |
-|---------------------------------------|------------|
-| __cpp_aggregate_bases                 | 201603     |
-| __cpp_aggregate_nsdmi                 | 201304     |
-| __cpp_aggregate_paren_init            | 201902     |
-| __cpp_alias_templates                 | 200704     |
-| __cpp_aligned_new                     | 201606     |
-| __cpp_attributes                      | 200809     |
-| __cpp_auto_cast                       | undefined  |
-| __cpp_binary_literals                 | 201304     |
-| __cpp_capture_star_this               | 201603     |
-| __cpp_char                            | undefined  |
-| __cpp_concepts                        | 201907     |
-| __cpp_conditional_explicit            | 201806     |
-| __cpp_consteval                       | 201811     |
-| __cpp_constexpr                       | 201907     |
-| __cpp_constexpr_dynamic_alloc         | 201907     |
-| __cpp_constexpr_in_decltype           | 201711     |
-| __cpp_constinit                       | 201907     |
-| __cpp_decltype                        | 200707     |
-| __cpp_decltype_auto                   | 201304     |
-| __cpp_deduction_guides                | 201907     |
-| __cpp_delegating_constructors         | 200604     |
-| __cpp_designated_initializers         | 201707     |
-| __cpp_enumerator_attributes           | 201411     |
-| __cpp_explicit_this_parameter         | undefined  |
-| __cpp_fold_expressions                | 201603     |
-| __cpp_generic_lambdas                 | 201707     |
-| __cpp_guaranteed_copy_elision         | 201606     |
-| __cpp_hex_float                       | 201603     |
-| __cpp_if_consteval                    | undefined  |
-| __cpp_if_constexpr                    | 201606     |
-| __cpp_impl_coroutine                  | 201902     |
-| __cpp_impl_destroying_delete          | 201806     |
-| __cpp_impl_three_way_comparison       | 201907     |
-| __cpp_implicit_move                   | undefined  |
-| __cpp_inheriting_constructors         | 201511     |
-| __cpp_init_captures                   | 201803     |
-| __cpp_initializer_lists               | 200806     |
-| __cpp_inline_variables                | 201606     |
-| __cpp_lambdas                         | 200907     |
-| __cpp_modules                         | undefined  |
-| __cpp_multidimensional_subscript      | undefined  |
-| __cpp_named_character_escapes         | undefined  |
-| __cpp_namespace_attributes            | 201411     |
-| __cpp_noexcept_function_type          | 201510     |
-| __cpp_nontype_template_args           | 201911     |
-| __cpp_nontype_template_parameter_auto | 201606     |
-| __cpp_nsdmi                           | 200809     |
-| __cpp_pack_indexing                   | undefined  |
-| __cpp_placeholder_variables           | undefined  |
-| __cpp_range_based_for                 | 201603     |
-| __cpp_raw_strings                     | 200710     |
-| __cpp_ref_qualifiers                  | 200710     |
-| __cpp_return_type_deduction           | 201304     |
-| __cpp_rvalue_references               | 200610     |
-| __cpp_size_t_suffix                   | undefined  |
-| __cpp_sized_deallocation              | 201309     |
-| __cpp_static_assert                   | 201411     |
-| __cpp_static_call_operator            | undefined  |
-| __cpp_structured_bindings             | 201606     |
-| __cpp_template_template_args          | 201611     |
-| __cpp_threadsafe_static_init          | 200806     |
-| __cpp_unicode_characters              | 201411     |
-| __cpp_unicode_literals                | 200710     |
-| __cpp_user_defined_literals           | 200809     |
-| __cpp_using_enum                      | 201907     |
-| __cpp_variable_templates              | 201304     |
-| __cpp_variadic_templates              | 200704     |
-| __cpp_variadic_using                  | 201611     |
+| Feature                               | GCC 11.4.0 | GCC 12.3.0 |
+|---------------------------------------|------------|------------|
+| __cpp_aggregate_bases                 | 201603     | 201603     |
+| __cpp_aggregate_nsdmi                 | 201304     | 201304     |
+| __cpp_aggregate_paren_init            | 201902     | 201902     |
+| __cpp_alias_templates                 | 200704     | 200704     |
+| __cpp_aligned_new                     | 201606     | 201606     |
+| __cpp_attributes                      | 200809     | 200809     |
+| __cpp_auto_cast                       | undefined  | undefined  |
+| __cpp_binary_literals                 | 201304     | 201304     |
+| __cpp_capture_star_this               | 201603     | 201603     |
+| __cpp_char                            | undefined  | undefined  |
+| __cpp_concepts                        | 201907     | 202002     |
+| __cpp_conditional_explicit            | 201806     | 201806     |
+| __cpp_consteval                       | 201811     | 201811     |
+| __cpp_constexpr                       | 201907     | 202002     |
+| __cpp_constexpr_dynamic_alloc         | 201907     | 201907     |
+| __cpp_constexpr_in_decltype           | 201711     | 201711     |
+| __cpp_constinit                       | 201907     | 201907     |
+| __cpp_decltype                        | 200707     | 200707     |
+| __cpp_decltype_auto                   | 201304     | 201304     |
+| __cpp_deduction_guides                | 201907     | 201907     |
+| __cpp_delegating_constructors         | 200604     | 200604     |
+| __cpp_designated_initializers         | 201707     | 201707     |
+| __cpp_enumerator_attributes           | 201411     | 201411     |
+| __cpp_explicit_this_parameter         | undefined  | undefined  |
+| __cpp_fold_expressions                | 201603     | 201603     |
+| __cpp_generic_lambdas                 | 201707     | 201707     |
+| __cpp_guaranteed_copy_elision         | 201606     | 201606     |
+| __cpp_hex_float                       | 201603     | 201603     |
+| __cpp_if_consteval                    | undefined  | undefined  |
+| __cpp_if_constexpr                    | 201606     | 201606     |
+| __cpp_impl_coroutine                  | 201902     | 201902     |
+| __cpp_impl_destroying_delete          | 201806     | 201806     |
+| __cpp_impl_three_way_comparison       | 201907     | 201907     |
+| __cpp_implicit_move                   | undefined  | undefined  |
+| __cpp_inheriting_constructors         | 201511     | 201511     |
+| __cpp_init_captures                   | 201803     | 201803     |
+| __cpp_initializer_lists               | 200806     | 200806     |
+| __cpp_inline_variables                | 201606     | 201606     |
+| __cpp_lambdas                         | 200907     | 200907     |
+| __cpp_modules                         | undefined  | undefined  |
+| __cpp_multidimensional_subscript      | undefined  | undefined  |
+| __cpp_named_character_escapes         | undefined  | undefined  |
+| __cpp_namespace_attributes            | 201411     | 201411     |
+| __cpp_noexcept_function_type          | 201510     | 201510     |
+| __cpp_nontype_template_args           | 201911     | 201911     |
+| __cpp_nontype_template_parameter_auto | 201606     | 201606     |
+| __cpp_nsdmi                           | 200809     | 200809     |
+| __cpp_pack_indexing                   | undefined  | undefined  |
+| __cpp_placeholder_variables           | undefined  | undefined  |
+| __cpp_range_based_for                 | 201603     | 201603     |
+| __cpp_raw_strings                     | 200710     | 200710     |
+| __cpp_ref_qualifiers                  | 200710     | 200710     |
+| __cpp_return_type_deduction           | 201304     | 201304     |
+| __cpp_rvalue_references               | 200610     | 200610     |
+| __cpp_size_t_suffix                   | undefined  | undefined  |
+| __cpp_sized_deallocation              | 201309     | 201309     |
+| __cpp_static_assert                   | 201411     | 201411     |
+| __cpp_static_call_operator            | undefined  | undefined  |
+| __cpp_structured_bindings             | 201606     | 201606     |
+| __cpp_template_template_args          | 201611     | 201611     |
+| __cpp_threadsafe_static_init          | 200806     | 200806     |
+| __cpp_unicode_characters              | 201411     | 201411     |
+| __cpp_unicode_literals                | 200710     | 200710     |
+| __cpp_user_defined_literals           | 200809     | 200809     |
+| __cpp_using_enum                      | 201907     | 201907     |
+| __cpp_variable_templates              | 201304     | 201304     |
+| __cpp_variadic_templates              | 200704     | 200704     |
+| __cpp_variadic_using                  | 201611     | 201611     |
 
 ## Library features
 
