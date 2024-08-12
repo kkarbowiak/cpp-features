@@ -23,8 +23,8 @@ jobs:
               cxx: "cl",
             }
           - {
-              name: "Ubuntu latest - GCC",
-              os: ubuntu-latest,
+              name: "Ubuntu 24.04 - GCC",
+              os: ubuntu-24.04,
               cc: "gcc",
               cxx: "g++",
             }
